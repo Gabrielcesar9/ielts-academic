@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&family=Space+Mono&display=swap');
+
+
+
+.test_container{
+    background-color: white;
+    padding: 2.5%;
+    margin-top: 2.5%;
+    height: fit-content;
+    width: 70%;
+    margin-left: 15%;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.middle{
+    border: bottom solid black;
+    align-items: center;
+    justify-items: center;
+    /*border: solid brown;*/
+    width: 100%;
+}
+
+.middle2{
+    display: inline-flex;
+    margin: auto;
+    /*border:solid purple;*/
+    
+}
+
+p{  
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size:x-large;
+    font-family: 'Heebo', sans-serif;
+    text-align: justify;
+}
+
+h4 {line-height: 150%;
+    margin-left: 1%;
+    font-size:large;
+    font-family: 'Heebo', sans-serif;
+}
+textarea{
+    border-radius: 0.5rem;
+    background-image: url("./assets/images/notebook.jpg");
+    /*border: solid blue;*/
+    color: black;
+    font-size: x-large;
+    padding: 5%;
+    width:90%;
+    height: 15rem;
+    resize: none;
+    font-family: 'Heebo', sans-serif;
+}
+
+label{
+    font-family: 'Space Mono', monospace;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+}
+
+.description{
+    border: dotted black;
+    border-radius: 0.5rem;
+    padding: 0.8%;
+}
+
+input{
+    display: inline-flex;
+    font-family: 'Space Mono', monospace;
+    font-size: x-large;
+    text-align: center;
+    border:0;
+    width:10%;
+    border-bottom:1px solid black;
+    color:rgb(27, 131, 17);
+}
+li{
+    font-family: 'Space Mono', monospace;
+    font-size: x-large;
+}
+table{
+    margin:1%;
+}
+
+.tdradio{
+    width:10%;
+    text-align: center;
+    font-family: 'Space Mono, monospace'
+}
+
+.radio{
+    width:100%;
+    height: 1.5rem;
+    margin:auto;
+}
+.formli{
+    margin-left: 5%;
+}
+
+.audio{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+audio{
+    border: solid black;
+    border-radius: 2rem;
+}
+tr{
+    line-height: 0%;
+}
+td.form{
+    width: 50%;
+    padding: 0;
+    padding-left: 4%;
+}
+input[type='text']{
+    display: inline;
+    width: 25%;
+    background: transparent;
+}
+p.letter{
+    display:inline;
+    margin-right: 3%;
+    font-weight: bold;
+}
+input[type='checkbox']{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+input[type='radio']{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
